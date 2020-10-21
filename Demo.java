@@ -49,16 +49,16 @@ public class Demo{
         if (args.length > 0) input = Integer.parseInt(args[0]); else input = 5;
         printLoop(input);
         //arrToString
-        int[] array1 = {1,2,3,4};
-        System.out.println(arrToString(array1));
+        /*int[] array1 = {1,2,3,4};
+        System.out.println(arrToString(array1));*/
         //arrayDeepToString
-        int[][] array2 = {{1,2,3,4},{5,6},{7,8,9,10}};
-        System.out.println(arrayDeepToString(array2));
+        /*int[][] array2 = {{1,2,3,4},{5,6},{7,8,9,10}};
+        System.out.println(arrayDeepToString(array2));*/
         //create2DArray
-        System.out.println(arrayDeepToString(create2DArray(4,4,4)));
-        System.out.println(arrayDeepToString(create2DArray(6,2,3)));
+        /*System.out.println(arrayDeepToString(create2DArray(4,4,4)));
+        System.out.println(arrayDeepToString(create2DArray(6,2,3)));*/
         //create2DArrayRandomized
-        System.out.println(arrayDeepToString(create2DArrayRandomized(6,4,4)));
-        System.out.println(arrayDeepToString(create2DArrayRandomized(4,10,100)));
+        /*System.out.println(arrayDeepToString(create2DArrayRandomized(6,4,4)));
+        System.out.println(arrayDeepToString(create2DArrayRandomized(4,10,100)));*/
     }
 }
